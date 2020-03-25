@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos APP</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col s12"><h1>Cadastro de Eventos </h1></div>
+    </div>
+<div class="Row">
+
+        <form method="post"  class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input type="text" value="" name="nome">
+                    <label for="input_text">Nome</label>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input type="text" value="" name="local">
+                    <label for="input_text">Local</label>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input type="date" value="" name="data">
+                    </div>
+                <div class="input-field col s6">
+                    <input type="text" value="" name="horario">
+                    <label for="input_text">horario</label>
+                </div>
+
+            </div>
+
+
+            <button type="submit" class="waves-effect waves-light btn" >Salvar</button>
+
+        </form>
+
+
+</div>
+</div>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
